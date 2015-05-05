@@ -11,3 +11,5 @@
     fap = fetch --all -p
     ci = commit
     co = checkout
+    d = diff
+    dc = diff --cached
