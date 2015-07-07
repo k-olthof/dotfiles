@@ -13,7 +13,6 @@ export HISTCONTROL=erasedups
 export HISTIGNORE="ll:la:cd:..:cd ..:pwd:"
 export LC_CTYPE="en_US.UTF-8"
 export LC_ALL="en_US.UTF-8"
-export TERM=xterm-color
 
 #export PS1='\[\033[0;36m\]K \[\033[m\]\[\033[0;34m\]\w\[\033[m\]'
 export PS1='\[\033[0;36m\]\w\[\033[m\]'
@@ -31,10 +30,6 @@ fi
 export PS1="$PS1\$\[\033[00m\] "
 
 export PATH="/usr/local/bin:/usr/local/sbin:$PATH"
-
-[[ -s "$HOME/.rvm/scripts/rvm" ]] && source "$HOME/.rvm/scripts/rvm" # Load RVM into a shell session *as a function*
-
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 # Enable local override
 [ -f ~/.bash_profile_local ] && . ~/.bash_profile_local
