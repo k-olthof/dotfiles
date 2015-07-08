@@ -5,5 +5,5 @@ Configuration files for editors and other UNIX tools. This is to make it easier 
  ```
 Clone from github
 git clone git@github.com:k-olthof/dotfiles.git
-ln -s source/ target/
+Install Vundle plugins
  ```
