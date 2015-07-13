@@ -1,6 +1,9 @@
 set nocompatible                " Kill VI compatibility
 filetype off                    " required
 
+" Enable filetype plugins
+filetype plugin on              " required for matchit extend % matching - http://www.vim.org/scripts/script.php?script_id=39
+
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
