@@ -1,9 +1,6 @@
 set nocompatible                " Kill VI compatibility
 filetype off                    " required
 
-" Enable filetype plugins
-filetype plugin on              " required for matchit extend % matching - http://www.vim.org/scripts/script.php?script_id=39
-
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
@@ -21,10 +18,14 @@ Plugin 'mustache/vim-mustache-handlebars'
 Plugin 'bling/vim-airline'
 Plugin 'scrooloose/syntastic'
 Plugin 'godlygeek/tabular'
+Plugin 'valloric/MatchTagAlways'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required
 filetype plugin indent on    " required
+
+" Enable filetype plugins
+filetype plugin on              " required for matchit extend % matching - http://www.vim.org/scripts/script.php?script_id=39
 
 set number                      " Show line numbers
 set numberwidth=5               " Number of columns to use for the line number
